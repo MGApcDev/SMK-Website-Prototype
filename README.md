@@ -1,6 +1,8 @@
-SMK-Dummy-Site
+#SMK-Website-Prototype
 ==============
+First semester ITU project, alternative design for National Gallery of Denmarks website.
+Replacement for: http://www.smk.dk/udforsk-kunsten/highlights/
 
-Dummy site til SMK
+The .php file runs first as that's how my host handles subdomains.
 
-Som udgangspunkt starter websitet med at udfører .php filen(min webhost bruger den istedet for index når det er subdomains)
+Can be found on http://www.SMK.MGApcDev.com (currently offline)
