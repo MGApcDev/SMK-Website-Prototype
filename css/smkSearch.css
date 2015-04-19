@@ -1,0 +1,127 @@
+#search{
+    height: 70px;
+    min-width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background: rgba(41, 41, 41, 0.7);
+}
+#search ul{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#search ul li{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    color: white;
+    font-size: 40;
+    list-style: none;
+    cursor: pointer;
+}
+.texty{
+    vertical-align: 12px;
+}
+
+
+
+#search_udstil{
+    background: rgba(139, 139, 139, 0.7);
+    min-height: 70px;
+}
+#search_img{
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+#search_field{
+    vertical-align: 10px;
+}
+/*
+Following code from Adrian
+http://codepen.io/912lab/pen/LsplC
+*/
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 30px;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+    border: 0px solid rgba(0,0,0,0);
+	background-image: url('images/search.png');
+    background: rgba(0,0,0,0);
+    //background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	//border: solid 1px #ccc;
+    padding: 0px;
+	//padding: 9px 10px 9px 32px;
+	width: 0px;
+	
+    /*
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	*/
+    
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 500px;
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(0,0,0,0);
+	
+    
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+    
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+input[type=search] {
+	width: 0px;
+	padding-left: 0px;
+	color: transparent;
+	//cursor: pointer;
+}
+ input[type=search]:hover {
+	background-color: rgba(0,0,0,0);
+}
+ input[type=search]:focus {
+	width: 800px;
+	margin-left: 50px;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	cursor: auto;
+}
+ input:-moz-placeholder {
+	color: transparent;
+}
+ input::-webkit-input-placeholder {
+	color: transparent;
+}
+

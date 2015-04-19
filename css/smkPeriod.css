@@ -1,0 +1,67 @@
+#period{
+    margin-top: 80px;
+    //margin-bottom: 150px;
+    margin-left: 50px;
+    position: relative;
+}
+#period div{
+    position: absolute;
+    color: white;
+}
+#period div h5{
+    font-size: 30px;
+    cursor: pointer;
+}
+#period div img{
+    cursor: pointer;
+    position: absolute;
+}
+#box1p{
+    top: 30px;
+    left: 410px;
+}
+#box1p img{
+    height: 270px;
+    top: 45px;
+    left: -30px;
+}
+#box2p{
+    top: 100px;
+    left: 890px;
+}
+#box2p img{
+    top: 65px;
+    left: -100px;
+    transform: rotate(180deg);
+    height: 330px;
+}
+#box3p{
+    top: 300px;
+    left: 50px;
+}
+#box3p img{
+    top: 55px;
+    left: -50px;
+    transform: scaleY(-1);
+    height: 300px;
+}
+#box4p{
+    top: 400px;
+    left: 500px;
+}
+#box4p img{
+    top: 45px;
+    left: -60px;
+    transform: scaleX(-1);
+    height: 330px;
+}
+#box5p{
+    top: 0px;
+    left: 40px;
+}
+#box5p img{
+    top: 65px;
+    left: -80px;
+    transform: rotate(180deg);
+    height: 250px;
+}

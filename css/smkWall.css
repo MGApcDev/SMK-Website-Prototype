@@ -1,0 +1,47 @@
+#wall{
+    width: auto;
+    height: 100%;
+    //overflow: scroll;
+    position: absolute;
+    top: 110px;
+}
+#wall img{
+    position: absolute;
+    padding: 5px;
+}
+#copy2{
+    position: absolute;
+    top: 562px;
+    left: 1039px;
+}
+#copy3{
+    position: absolute;
+    left: 1194px;
+}
+#copy4{
+    position: absolute;
+    left: 875px;
+}
+#copy5{
+    position: absolute;
+    top: 562px;
+}
+#copy6{
+    position: absolute;
+    top: 562px;
+    left: 725px;
+}
+
+#wallpart2{
+    position: absolute;
+    left:1920px;
+}
+#wallpart3{
+    position: absolute;
+    top: 1120px;
+}
+#wallpart4{
+    position: absolute;
+    left: 1920px;
+    top: 1120px;
+}

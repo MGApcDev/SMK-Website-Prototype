@@ -1,0 +1,95 @@
+#collection{
+    margin-top: 85px; 
+    margin-left: 50px;
+    position: relative;
+    height: 770px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background: #1a1a1a;
+    color: white;
+    font-style: italic;
+    font-weight:bolder;
+    position: relative;
+}
+.box div:hover{
+    cursor: pointer;   
+}
+.box div{
+    position: absolute;
+}
+.wall1{
+    top: 7px;
+    left: 10px;
+}
+.wall2{
+    top: 26px;
+    left: 115px;
+}
+.wall3{
+    top: 53px;
+    left: 60px;
+}
+.wall4{
+    top: 80px;
+    left: 125px;
+}
+.wall5{
+    top: 107px;
+    left: 5px;
+}
+.wall6{
+    top: 134px;
+    left: 75px;
+}
+.wall7{
+    top: 161px;
+    left: 30px;
+}
+.wall8{
+    top: 188px;
+    left: 105px;
+}
+.wall9{
+    top: 213px;
+    left: 70px;
+}
+#collection div h4, #collection div h5{
+    padding: 0px;
+    padding-left: 5px;
+    margin: 0px;
+    color: #333;
+    cursor: pointer;
+}
+#collection div{
+    position: absolute;
+}
+#box1{
+    top: 25px;
+    left: 25px;
+}
+#box2{
+    top: 100px;
+    left: 275px;
+}
+#box3{
+    top: 325px;
+    left: 25px;
+}
+#box4{
+    top: 55px;
+    left: 560px;
+}
+#box5{
+    top: 385px;
+    left: 385px;
+}
+#box6{
+    top: 345px;
+    left: 635px;
+}
+#box7{
+    top: 140px;
+    left: 885px;
+}
